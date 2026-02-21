@@ -1,4 +1,4 @@
-FROM eclipse-temurin:24-jdk
+FROM eclipse-temurin:21-jdk
 WORKDIR /app
 COPY target/app.jar /app
 EXPOSE 8085
